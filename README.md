@@ -93,22 +93,3 @@ else:
 
 *No research projects yet.*
 <!--[[[end]]]-->
-
----
-
-## Updating this README
-
-This README uses [cogapp](https://nedbatchelder.com/code/cog/) to automatically generate project descriptions.
-
-### Automatic updates
-
-A GitHub Action automatically runs `cog -r README.md` on every push to main and commits any changes to the README or new `_summary.md` files.
-
-### Manual updates
-
-To update locally:
-
-```bash
-# Run cogapp to regenerate the project list
-cog -r README.md
-```
